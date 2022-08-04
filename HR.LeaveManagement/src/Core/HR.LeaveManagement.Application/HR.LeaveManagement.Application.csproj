@@ -9,4 +9,16 @@
     <ProjectReference Include="..\HR.LeaveManagement.Domain\HR.LeaveManagement.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DTOs\Common\" />
+    <Folder Include="DTOs\LeaveRequest\" />
+    <Folder Include="DTOs\LeaveType\" />
+    <Folder Include="DTOs\LeaveAllocation\" />
+    <Folder Include="Profiles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+  </ItemGroup>
+
 </Project>
