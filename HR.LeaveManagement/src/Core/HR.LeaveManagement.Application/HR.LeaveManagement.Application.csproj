@@ -14,11 +14,15 @@
     <Folder Include="DTOs\LeaveRequest\" />
     <Folder Include="DTOs\LeaveType\" />
     <Folder Include="DTOs\LeaveAllocation\" />
+    <Folder Include="Features\LeaveTypes\Handlers\Commands\" />
+    <Folder Include="Features\LeaveTypes\Requests\Commands\" />
+    <Folder Include="Features\LeaveTypes\Requests\Queries\" />
     <Folder Include="Profiles\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
   </ItemGroup>
 
 </Project>
