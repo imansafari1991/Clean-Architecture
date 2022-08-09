@@ -11,8 +11,8 @@
 
   <ItemGroup>
     <Folder Include="DTOs\Common\" />
-    <Folder Include="DTOs\LeaveRequest\" />
-    <Folder Include="DTOs\LeaveType\" />
+    <Folder Include="DTOs\LeaveAllocation\Validators\" />
+    <Folder Include="DTOs\LeaveType\Validators\" />
     <Folder Include="Features\LeaveAllocations\Handlers\Commands\" />
     <Folder Include="Features\LeaveAllocations\Handlers\Queries\" />
     <Folder Include="Features\LeaveAllocations\Requests\Queries\" />
@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.2.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
   </ItemGroup>
 
